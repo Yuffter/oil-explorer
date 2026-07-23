@@ -1,0 +1,24 @@
+{
+  "name": "oil-explorer",
+  "version": "1.0.0",
+  "description": "Edit your Obsidian vault's file tree like a text buffer, oil.nvim style.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.19.11",
+    "obsidian": "latest",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.10.4",
+    "@codemirror/state": "^6.7.1",
+    "@codemirror/view": "^6.43.6",
+    "@replit/codemirror-vim": "^6.3.0"
+  }
+}

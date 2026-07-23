@@ -1,0 +1,10 @@
+{
+  "id": "oil-explorer",
+  "name": "Oil Explorer",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Edit your vault's folders like a text buffer — create, rename, and delete files by editing lines, oil.nvim style.",
+  "author": "You",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

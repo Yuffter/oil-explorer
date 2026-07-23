@@ -1,0 +1,44 @@
+.oil-view-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 0;
+}
+
+.oil-path-header {
+	font-weight: 600;
+	font-family: var(--font-monospace);
+	padding: 6px 10px;
+	border-bottom: 1px solid var(--background-modifier-border);
+	background: var(--background-secondary);
+}
+
+.oil-hint {
+	font-size: 0.8em;
+	color: var(--text-muted);
+	padding: 4px 10px;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.oil-textarea {
+	flex: 1 1 auto;
+	width: 100%;
+	resize: none;
+	border: none;
+	outline: none;
+	font-family: var(--font-monospace);
+	font-size: 0.95em;
+	line-height: 1.5em;
+	padding: 10px;
+	background: var(--background-primary);
+	color: var(--text-normal);
+	white-space: pre;
+	tab-size: 2;
+}
+
+.oil-confirm-buttons {
+	display: flex;
+	justify-content: flex-end;
+	gap: 8px;
+	margin-top: 12px;
+}
